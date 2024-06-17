@@ -1,4 +1,4 @@
-package com.algorithm.binaryTree;
+package algorithm.algorithm.binaryTree;
 
 import java.util.LinkedList;
 import java.util.Queue;
