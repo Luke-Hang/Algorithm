@@ -1,4 +1,4 @@
-package com.SortPractice1;
+package algorithm.SortPractice1;
 
 import org.w3c.dom.ls.LSInput;
 

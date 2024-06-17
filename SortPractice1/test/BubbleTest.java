@@ -1,6 +1,6 @@
-package com.SortPractice1.test;
+package algorithm.SortPractice1.test;
 
-import com.SortPractice1.Buble01;
+import algorithm.SortPractice1.Buble01;
 
 import java.util.Arrays;
 

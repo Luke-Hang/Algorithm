@@ -1,4 +1,4 @@
-package com.SortPractice1.test;
+package algorithm.SortPractice1.test;
 
 /**
  * @author xiehang

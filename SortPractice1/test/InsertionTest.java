@@ -1,6 +1,7 @@
-package com.SortPractice1.test;
+package algorithm.SortPractice1.test;
 
-import com.SortPractice1.Insertion1;
+
+import algorithm.SortPractice1.Insertion1;
 
 import java.util.Arrays;
 
