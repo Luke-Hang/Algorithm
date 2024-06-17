@@ -1,4 +1,4 @@
-package com.algorithm.circulardependency;
+package algorithm.algorithm.circulardependency;
 
 /**
  * @author xiehang
