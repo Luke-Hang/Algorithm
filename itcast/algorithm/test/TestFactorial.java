@@ -1,4 +1,4 @@
-package cn.itcast.algorithm.test;
+package algorithm.itcast.algorithm.test;
 
 public class TestFactorial {
 

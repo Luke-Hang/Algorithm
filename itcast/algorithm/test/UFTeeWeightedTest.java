@@ -1,4 +1,4 @@
-package cn.itcast.algorithm.test;
+package algorithm.itcast.algorithm.test;
 
 import cn.itcast.algorithm.uf.UF_Tree;
 import cn.itcast.algorithm.uf.UF_Tree_Weighted;

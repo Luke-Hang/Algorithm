@@ -1,7 +1,7 @@
-package cn.itcast.algorithm.test;
+package algorithm.itcast.algorithm.test;
 
-import cn.itcast.algorithm.graph.Digraph;
-import cn.itcast.algorithm.graph.TopoLogical;
+import algorithm.itcast.algorithm.graph.Digraph;
+import algorithm.itcast.algorithm.graph.TopoLogical;
 import cn.itcast.algorithm.linear.Stack;
 
 public class TopoLogicalTest {

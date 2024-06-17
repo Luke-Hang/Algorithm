@@ -1,8 +1,8 @@
-package cn.itcast.algorithm.test;
+package algorithm.itcast.algorithm.test;
 
-import cn.itcast.algorithm.graph.Edge;
-import cn.itcast.algorithm.graph.EdgeWeightedGraph;
-import cn.itcast.algorithm.graph.PrimMST;
+import algorithm.itcast.algorithm.graph.Edge;
+import algorithm.itcast.algorithm.graph.EdgeWeightedGraph;
+import algorithm.itcast.algorithm.graph.PrimMST;
 import cn.itcast.algorithm.linear.Queue;
 
 import java.io.BufferedReader;
