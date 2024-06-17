@@ -1,4 +1,4 @@
-package cn.itcast.algorithm.graph;
+package algorithm.itcast.algorithm.graph;
 
 import cn.itcast.algorithm.linear.Queue;
 

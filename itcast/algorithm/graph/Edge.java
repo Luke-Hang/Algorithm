@@ -1,4 +1,4 @@
-package cn.itcast.algorithm.graph;
+package algorithm.itcast.algorithm.graph;
 
 public class Edge implements Comparable<Edge> {
     private final int v;//顶点一

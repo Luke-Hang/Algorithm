@@ -1,7 +1,8 @@
-package cn.itcast.algorithm.test;
+package algorithm.itcast.algorithm.test;
 
-import cn.itcast.algorithm.graph.DepthFirstSearch;
-import cn.itcast.algorithm.graph.Graph;
+
+import algorithm.itcast.algorithm.graph.DepthFirstSearch;
+import algorithm.itcast.algorithm.graph.Graph;
 
 public class DepthFirstSearchTest {
 

@@ -1,8 +1,8 @@
-package cn.itcast.algorithm.test;
+package algorithm.itcast.algorithm.test;
 
-import cn.itcast.algorithm.graph.DijkstraSP;
-import cn.itcast.algorithm.graph.DirectedEdge;
-import cn.itcast.algorithm.graph.EdgeWeightedDigraph;
+import algorithm.itcast.algorithm.graph.DijkstraSP;
+import algorithm.itcast.algorithm.graph.DirectedEdge;
+import algorithm.itcast.algorithm.graph.EdgeWeightedDigraph;
 import cn.itcast.algorithm.linear.Queue;
 
 import java.io.BufferedReader;

@@ -1,8 +1,8 @@
-package cn.itcast.algorithm.test;
+package algorithm.itcast.algorithm.test;
 
-import cn.itcast.algorithm.graph.DepthFirstPaths;
-import cn.itcast.algorithm.graph.Graph;
-import cn.itcast.algorithm.linear.Stack;
+
+import algorithm.itcast.algorithm.graph.DepthFirstPaths;
+import algorithm.itcast.algorithm.graph.Graph;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -33,7 +33,7 @@ public class DepthFirstPathsTest {
         //构建路径查找对象，并设置起点为0
         DepthFirstPaths paths = new DepthFirstPaths(G, 0);
         //调用 pathTo(4)，找到从起点0到终点4的路径，返回Stack
-        Stack<Integer> path = paths.pathTo(4);
+        cn.itcast.algorithm.linear.Stack<Integer> path = paths.pathTo(4);
         StringBuilder sb = new StringBuilder();
         //遍历栈对象
         for (Integer v : path) {

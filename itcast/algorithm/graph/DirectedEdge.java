@@ -1,4 +1,4 @@
-package cn.itcast.algorithm.graph;
+package algorithm.itcast.algorithm.graph;
 
 public class DirectedEdge {
     private final int v;//起点
