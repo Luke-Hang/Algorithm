@@ -1,4 +1,4 @@
-package com.algorithm.queueStack;
+package algorithm.algorithm.queueStack;
 
 import java.awt.event.FocusEvent;
 

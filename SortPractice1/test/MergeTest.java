@@ -1,6 +1,6 @@
 package com.SortPractice1.test;
 
-import com.algorithm.Sort.Merge;
+import algorithm.algorithm.Sort.Merge;
 
 import java.util.Arrays;
 

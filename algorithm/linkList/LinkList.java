@@ -1,4 +1,4 @@
-package com.algorithm.linkList;
+package algorithm.algorithm.linkList;
 
 
 import java.util.Iterator;

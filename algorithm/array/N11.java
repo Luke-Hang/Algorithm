@@ -1,4 +1,4 @@
-package com.algorithm.array;
+package algorithm.algorithm.array;
 
 /**
  * @author xiehang

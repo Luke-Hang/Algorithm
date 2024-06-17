@@ -1,4 +1,4 @@
-package com.algorithm.collectionUtils;
+package algorithm.algorithm.collectionUtils;
 
 import java.util.HashMap;
 import java.util.Hashtable;

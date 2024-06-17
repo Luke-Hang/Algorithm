@@ -1,4 +1,4 @@
-package com.algorithm.hashtable;
+package algorithm.algorithm.hashtable;
 
 import jdk.nashorn.internal.ir.IfNode;
 

@@ -1,4 +1,4 @@
-package com.algorithm.hashtable;
+package algorithm.algorithm.hashtable;
 
 import java.util.*;
 import java.util.stream.Collectors;

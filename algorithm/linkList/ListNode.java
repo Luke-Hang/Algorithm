@@ -1,4 +1,4 @@
-package com.algorithm.linkList;
+package algorithm.algorithm.linkList;
 
 /**
  * @author xiehang
