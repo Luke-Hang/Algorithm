@@ -1,4 +1,4 @@
-package com.lamada;
+package algorithm.lamada;
 
 /**
  * @author xiehang

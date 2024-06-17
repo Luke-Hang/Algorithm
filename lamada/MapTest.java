@@ -1,4 +1,4 @@
-package com.lamada;
+package algorithm.lamada;
 
 import java.util.ArrayList;
 import java.util.HashMap;
