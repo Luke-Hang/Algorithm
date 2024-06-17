@@ -1,4 +1,4 @@
-package com.algorithm.backtrack.norepeatnochoice;
+package algorithm.algorithm.backtrack.norepeatnochoice;
 
 import java.util.ArrayList;
 import java.util.List;

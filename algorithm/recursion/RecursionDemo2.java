@@ -1,4 +1,4 @@
-package com.algorithm.recursion;
+package algorithm.algorithm.recursion;
 
 /**
  * @author xiehang

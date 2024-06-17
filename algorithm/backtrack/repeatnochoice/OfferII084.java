@@ -1,4 +1,4 @@
-package com.algorithm.backtrack.repeatnochoice;
+package algorithm.algorithm.backtrack.repeatnochoice;
 
 import java.util.ArrayList;
 import java.util.Arrays;
