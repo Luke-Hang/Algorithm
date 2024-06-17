@@ -1,4 +1,4 @@
-package com.algorithm.generics;
+package algorithm.algorithm.generics;
 
 /**
  * @author xiehang
