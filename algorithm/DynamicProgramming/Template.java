@@ -1,4 +1,4 @@
-package com.algorithm.DynamicProgramming;
+package algorithm.algorithm.DynamicProgramming;
 /**
  * @author xiehang
  * @date 2023/1/16 10:30

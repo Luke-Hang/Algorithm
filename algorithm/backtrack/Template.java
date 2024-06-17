@@ -1,4 +1,4 @@
-package com.algorithm.backtrack;
+package algorithm.algorithm.backtrack;
 
 /**
  * @author xiehang

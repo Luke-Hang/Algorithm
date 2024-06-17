@@ -1,4 +1,4 @@
-package com.algorithm.binaryTree;
+package algorithm.algorithm.binaryTree;
 
 /**
  * @author xiehang

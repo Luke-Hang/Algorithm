@@ -1,4 +1,4 @@
-package com.algorithm.hashtable;
+package algorithm.algorithm.hashtable;
 
 /**
  * @author xiehang
