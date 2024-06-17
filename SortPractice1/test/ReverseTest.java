@@ -1,6 +1,6 @@
 package com.SortPractice1.test;
 
-import com.algorithm.linkList.LinkList;
+import algorithm.algorithm.linkList.LinkList;
 
 /**
  * @author xiehang

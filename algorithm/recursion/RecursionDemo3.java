@@ -1,6 +1,4 @@
-package com.algorithm.recursion;
-
-import com.algorithm.Sort.Factorial;
+package algorithm.algorithm.recursion;
 
 /**
  * @author xiehang
