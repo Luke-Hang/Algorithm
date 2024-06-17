@@ -1,4 +1,4 @@
-package com.algorithm.dichotomy;
+package algorithm.algorithm.dichotomy;
 
 /**
  * @author xiehang
