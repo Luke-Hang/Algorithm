@@ -1,4 +1,4 @@
-package com.algorithm.huawei;
+package algorithm.algorithm.huawei;
 
 import java.util.HashSet;
 import java.util.Scanner;
