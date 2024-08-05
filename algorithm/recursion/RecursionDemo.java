@@ -23,6 +23,7 @@ public class RecursionDemo {
         //当return end，按照入栈顺序再归出栈
         //递 1+sum(2,3)----2+sum(3,3)----return 3
         //归 3         ----2+3     ----1+(2+3)
-        return start + sum(start + 1, end);
+        int res = start + sum(start + 1, end);
+        return res;
     }
 }

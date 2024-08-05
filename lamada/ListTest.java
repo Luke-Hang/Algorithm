@@ -1,9 +1,6 @@
 package algorithm.lamada;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 
@@ -16,7 +13,9 @@ public class ListTest {
         List dishList=new ArrayList<>();
         beforeJava7(dishList);
         afterJava8(dishList);
-
+//        fruits();
+//        removeIf();
+        replaceAll();
 
     }
 
@@ -64,5 +63,33 @@ public class ListTest {
 
     private static void afterJava9(List<Dish> dishList) {
         List<Dish> collect = dishList.stream().filter(dish -> dish.getCalories() > 400).collect(Collectors.toList());
+    }
+
+    //使用 forEach() 方法可以方便地遍历集合中的元素，并对每个元素执行自定义操作，从而简化了对集合的处理过程
+    //stream()方法,返回一个顺序流，用于对集合中的元素进行顺序操作
+    private static void fruits() {
+        List<String> fruits = Arrays.asList("Apple", "Banana", "Orange");
+        //forEach()方法
+        fruits.forEach(fruit-> System.out.println("I like "+fruit));
+        System.out.println("======================================");
+        //stream()方法
+        fruits.stream().forEach(fruit-> System.out.println("I like "+fruit));
+
+        fruits.forEach(System.out::println);
+    }
+
+    //removeIf() 方法,使用Lambda表达式来移除集合中满足特定条件的元素
+    private static void removeIf() {
+        List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
+        // 移除所有偶数
+        boolean b = list.removeIf(element -> element % 2 == 0);
+        list.forEach(System.out::println);
+    }
+
+    //replaceAll()方法
+    private static void replaceAll() {
+        List<Integer> numbers = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
+        numbers.replaceAll(e->e*2);// 将列表中的每个元素乘以2
+        numbers.forEach(System.out::println);
     }
 }
