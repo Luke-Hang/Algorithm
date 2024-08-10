@@ -1,7 +1,5 @@
 package algorithm.algorithm.linkList;
 
-import java.util.Arrays;
-
 /**
  * @author xiehang
  * @create 2022-04-12 12:16

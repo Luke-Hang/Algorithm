@@ -1,8 +1,5 @@
 package algorithm.algorithm.linkList;
 
-import java.util.HashSet;
-import java.util.Set;
-
 /**
  * @author xiehang
  * @create 2022-04-14 21:39

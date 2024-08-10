@@ -2,9 +2,7 @@ package algorithm.algorithm.hashtable;
 
 import algorithm.algorithm.linkList.ListNode;
 
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 import java.util.Set;
 
 /**

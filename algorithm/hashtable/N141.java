@@ -3,7 +3,6 @@ package algorithm.algorithm.hashtable;
 import algorithm.algorithm.linkList.ListNode;
 
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 /**
