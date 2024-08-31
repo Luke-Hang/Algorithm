@@ -12,17 +12,14 @@ import java.util.LinkedList;
  * 每次调用应该返回什么
  */
 public class TreeNode {
-    int val;
-
-    TreeNode() {
-    }
-
-    TreeNode(int val) {
+    public int val;// 节点值
+    public TreeNode right;// 左子节点引用
+    public TreeNode left;// 右子节点引用
+    public TreeNode(int val) {
         this.val = val;
     }
-
-    TreeNode right;
-    TreeNode left;
+    public TreeNode() {
+    }
 
     public static TreeNode getTreeNode(Integer[] nums) {
         if (nums.length == 0) {
