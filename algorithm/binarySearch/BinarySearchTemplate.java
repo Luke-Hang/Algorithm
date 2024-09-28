@@ -46,14 +46,13 @@ public class BinarySearchTemplate {
         }
     }
 
-
     /**
      * 二分查找框架
      * 分析二分查找的⼀个技巧是：不要出现 else，而是把所有情况用 else if 写清楚，这样可以清楚地展现所有细节
      * left+(right-left)/2 和 (left +right) / 2 的结果相同，
      * 但left + (right - left) / 2能有效防止了left 和 right 太大相加后溢出
      * 时间复杂度为 𝑂(log 𝑛) ：在二分循环中，区间每轮缩小一半，因此循环次数为 log2 𝑛 。
-     * 空间复杂度为 𝑂(1) ：指针 𝑖 和 𝑗 使用常数大小空间。
+     * 空间复杂度为 𝑂(1) ：指针 right 和 right 使用常数大小空间。
      */
     private static int binarySearch(int[] nums, int target) {
         //搜索区间两端闭
