@@ -7,7 +7,7 @@ import java.util.List;
  * @author xiehang
  * @date 2024/8/5 18:36
  */
-public class India {
+public class IndiaTest {
     public static void main(String[] args) {
         int[] nums = {1, 2, 3, 4, 4, 10};
         int target = 4;
@@ -16,11 +16,13 @@ public class India {
         int rigth = nums.length - 1;
         List<Integer> list = new ArrayList<>();
 
-        while (rigth >= left) {
+        while (left <= rigth) {
             int mid = left + (rigth - left) / 2;
             if (nums[mid] < target) {
+                //nums[mid]小了，向右搜索
                 left = mid + 1;
             } else if (nums[mid] > target) {
+                //nums[mid]大了，向左搜索
                 rigth = mid - 1;
             } else if (nums[mid] == target) {
                 list.add(mid);

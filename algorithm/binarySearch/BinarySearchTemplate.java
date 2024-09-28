@@ -11,11 +11,39 @@ public class BinarySearchTemplate {
 
     public static void main(String[] args) {
         int[] nums = {1, 3, 6, 8, 12};
-        int target = 0;
+        int target = 8;
         //二分查找
-        binarySearch(nums, target);
+//        int index = binarySearch(nums, target);
+        //使用递归进行二分查找
+        int index = dfss(nums, target);
         //二分查找插入点
-        binarySearchInsertionSimple(nums, target);
+//        int index = binarySearchInsertionSimple(nums, target);
+        System.out.println(index);
+    }
+
+    /**
+     * 使用递归进行二分查找
+     */
+    private static int dfss(int[] nums, int target) {
+        return dfsss(nums, target, 0, nums.length - 1);
+    }
+
+
+    /**
+     * 使用递归进行二分查找
+     */
+    private static int dfsss(int[] nums, int target, int left, int right) {
+        if (left > right) {
+            return -1;
+        }
+        int mid = left + (right - left) / 2;
+        if (nums[mid] < target) {
+            return dfsss(nums, target, mid + 1, right);
+        } else if (nums[mid] > target) {
+            return dfsss(nums, target, left, mid - 1);
+        } else {
+            return mid;
+        }
     }
 
     /**
@@ -43,8 +71,6 @@ public class BinarySearchTemplate {
             } else {
                 return mid;
             }
-            // 未找到目标元素，返回 -1
-            return -1;
 
             //检查 left 越界的情况
             //left >= nums.length left最大是集合的最右边索引，left >= nums.length 就超过了最右边界
@@ -62,24 +88,25 @@ public class BinarySearchTemplate {
             }
             return right;*/
         }
-        return 0;
+        // 未找到目标元素，返回 -1
+        return -1;
     }
 
     /**
      * 给定一个长度为 𝑛 的有序数组 nums 和一个元素 target ，数组不存在重复元素。现将 target 插入数组 nums 中，并保持其有序性。
      * 若数组中已存在元素 target ，则插入到其左方。请返回插入后 target在数组中的索引
      * 二分查找插入点（无重复元素）
-     *
+     * <p>
      * 问题一：当数组中包含 target 时，插入点的索引是否是该元素的索引？
-     *  题目要求将 target 插入到相等元素的左边，这意味着新插入的 target 替换了原来 target 的索引位置。也就是说，
-     *  当数组包含 target 时，插入点的索引就是该 target 的索引。
-     *
+     * 题目要求将 target 插入到相等元素的左边，这意味着新插入的 target 替换了原来 target 的索引位置。也就是说，
+     * 当数组包含 target 时，插入点的索引就是该 target 的索引。
+     * <p>
      * 问题二：当数组中不存在 target 时，插入点是哪个元素的索引？
-     *  当 nums[m] < target指针left 在向大于等于 target 的元素靠近，即left向右移动。
-     *  当 nums[m] > target指针right 在向小于等于 target 的元素靠近，即right向左移动。
-     *  因此二分循环结束时一定有： left指向首个大于 target 的元素(left = mid + 1)，
-     *  right指向首个小于 target 的元素(right = mid - 1)。
-     *  因为left指向首个大于 target 的元素，此时返回left就相当于返回了刚好大于他的元素的索引，将元素插入到该位置，刚好可以是数组有序排列
+     * 当 nums[m] < target指针left 在向大于等于 target 的元素靠近，即left向右移动。
+     * 当 nums[m] > target指针right 在向小于等于 target 的元素靠近，即right向左移动。
+     * 因此二分循环结束时一定有： left指向首个大于 target 的元素(left = mid + 1)，
+     * right指向首个小于 target 的元素(right = mid - 1)。
+     * 因为left指向首个大于 target 的元素，此时返回left就相当于返回了刚好大于他的元素的索引，将元素插入到该位置，刚好可以是数组有序排列
      */
     private static int binarySearchInsertionSimple(int[] nums, int target) {
         //搜索区间两端闭
