@@ -38,8 +38,10 @@ public class BinarySearchTemplate {
         }
         int mid = left + (right - left) / 2;
         if (nums[mid] < target) {
+            //nums[mid] 小了，向右移动left = mid + 1
             return dfsss(nums, target, mid + 1, right);
         } else if (nums[mid] > target) {
+            //nums[mid] 大了，向左移动 right = mid - 1
             return dfsss(nums, target, left, mid - 1);
         } else {
             return mid;
