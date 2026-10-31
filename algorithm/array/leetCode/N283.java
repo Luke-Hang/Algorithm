@@ -1,4 +1,4 @@
-package algorithm.algorithm.array;
+package algorithm.algorithm.array.leetCode;
 
 /**
  * @author xiehang

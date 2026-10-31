@@ -1,7 +1,4 @@
-package algorithm.algorithm.array;
-
-import java.util.HashSet;
-import java.util.Set;
+package algorithm.algorithm.array.leetCode;
 
 /**
  * @author xiehang

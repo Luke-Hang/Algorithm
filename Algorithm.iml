@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/algorithm" isTestSource="false" packagePrefix="algorithm.algorithm" />
+      <sourceFolder url="file://$MODULE_DIR$/lamada" isTestSource="false" packagePrefix="algorithm.lamada" />
+      <sourceFolder url="file://$MODULE_DIR$/SortPractice1" isTestSource="false" packagePrefix="algorithm.SortPractice1" />
+      <sourceFolder url="file://$MODULE_DIR$/itcast/algorithm/graph" isTestSource="false" packagePrefix="algorithm.itcast.algorithm.graph" />
+      <sourceFolder url="file://$MODULE_DIR$/itcast/algorithm/test" isTestSource="false" packagePrefix="algorithm.itcast.algorithm.test" />
+      <sourceFolder url="file://$MODULE_DIR$/itcast/algorithm/heap" isTestSource="false" packagePrefix="cn.itcast.algorithm.heap" />
+      <sourceFolder url="file://$MODULE_DIR$/itcast/algorithm/linear" isTestSource="false" packagePrefix="cn.itcast.algorithm.linear" />
+      <sourceFolder url="file://$MODULE_DIR$/itcast/algorithm/priority" isTestSource="false" packagePrefix="cn.itcast.algorithm.priority" />
+      <sourceFolder url="file://$MODULE_DIR$/itcast/algorithm/sort" isTestSource="false" packagePrefix="cn.itcast.algorithm.sort" />
+      <sourceFolder url="file://$MODULE_DIR$/itcast/algorithm/symbol" isTestSource="false" packagePrefix="cn.itcast.algorithm.symbol" />
+      <sourceFolder url="file://$MODULE_DIR$/itcast/algorithm/tree" isTestSource="false" packagePrefix="cn.itcast.algorithm.tree" />
+      <sourceFolder url="file://$MODULE_DIR$/itcast/algorithm/uf" isTestSource="false" packagePrefix="cn.itcast.algorithm.uf" />
+      <excludeFolder url="file://$MODULE_DIR$/.git" />
+      <excludeFolder url="file://$MODULE_DIR$/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

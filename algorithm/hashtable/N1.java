@@ -1,6 +1,5 @@
 package algorithm.algorithm.hashtable;
 
-import jdk.nashorn.internal.ir.IfNode;
 
 import java.util.Arrays;
 import java.util.HashMap;

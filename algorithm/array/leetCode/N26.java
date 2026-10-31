@@ -1,8 +1,6 @@
-package algorithm.algorithm.array;
+package algorithm.algorithm.array.leetCode;
 
-import java.util.Arrays;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Set;
 
 /**
