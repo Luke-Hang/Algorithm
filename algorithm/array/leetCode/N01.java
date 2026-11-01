@@ -1,5 +1,9 @@
 package algorithm.algorithm.array.leetCode;
 
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * @author xiehang
  * @create 2022-12-13 15:01
@@ -17,12 +21,21 @@ public class N01 {
         int[] arr = {2, 7, 11, 15};
         int target = 18;
         int[] ints = twoSum(arr, target);
-        for (int i = 0; i < ints.length; i++) {
-            System.out.println(ints[i]);
-
-        }
+        System.out.println(Arrays.toString(ints));
     }
 
+    public static int[] twoSum1(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int value = target - nums[i];
+            if (!map.containsKey(value)) {
+                map.put(nums[i], i);
+            } else {
+                return new int[]{map.get(value), i};
+            }
+        }
+        return new int[0];
+    }
     /**
      * 暴力枚举：检查每一对不同的元素，适用于无序数组。
      * 时间复杂度 O(n²)，额外空间复杂度 O(1)。

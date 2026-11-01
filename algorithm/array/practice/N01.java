@@ -12,8 +12,10 @@ public class N01 {
 
         List<Integer> list = new ArrayList();
 
+        //外层循环：依次取出当前元素。
         for (int i = 0; i < arr.length; i++) {
             int count = 0;
+            //内层循环：遍历当前元素左边的所有元素，判断是否比当前元素小。
             for (int j = 0; j < i; j++) {
                 if (arr[i] > arr[j]) {
                     count++;
